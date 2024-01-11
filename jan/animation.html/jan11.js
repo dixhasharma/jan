@@ -62,7 +62,27 @@ for(let i=0;i<heading3.length;i=i+2)
 }
 
 //for of loop
-for(let i of new1)
+// for(let i of new1)
+// {
+//     console.log(i);
+// }
+
+var div=document.getElementById("mouseoutDiv");
+mouseoutDiv.addEventListener("mouseout",function()
 {
-    console.log(i);
-}
+    mouseoutDiv.style.backgroundColor="red";
+})
+mouseoutDiv.addEventListener("mouseover",function()
+{
+    mouseoutDiv.style.backgroundColor="blue";
+})
+let mouseup=document.getElementById("mouseup");
+mouseup.addEventListener("mouseup",function()
+{
+    mouseup.style.backgroundColor="orange";
+})
+
+mouseup.addEventListener("mouseup",function()
+{
+    mouseup.style.backgroundColor="";
+})
