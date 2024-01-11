@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             
+             
+    .animation
+     {
+        background-color: blue;
+        height: 200px;
+        width: 300px;
+        position:  relative;
+        animation-name: example;
+        animation-duration: 6s;
+        animation-delay: 3s;
+     }
+     @keyframes example{
+     0%{
+        background-color: red;
+        left: 0px;
+        top: 0px
+
+
+     }
+
+     25%{
+        background-color: yellow;
+        top: 0px;
+        left: 200px;
+
+     }
+     50%
+     {
+        background-color: pink;
+        top: 200px;
+        left: 200px;
+
+     }
+     75%
+     {
+        background-color: green;
+        top: 200px;
+        left:0px;
+     }
+    }
+
+    .grid-container
+    {
+        height: 200px;
+        width: 900px;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 15px;
+    }
+    .grid-item
+    {
+       background-color: blueviolet;
+    } 
+    .grid-item-one
+    {
+        grid-column: 1/4;
+        background-color: aqua;
+    }
+
+    .grid-item-two
+    {
+        grid-column: 1/4;
+        background-color: aquamarine;
+    }
+    .grid-item-three
+    {
+        background-color: blueviolet;
+    }
+
+    .item1
+    {
+        height:200px ;      
+    }
+
+    .footer
+    {
+        background-color: purple;
+        height: 400px;
+    }
+    .grid-foot
+    {
+       background-color: blue;
+       grid-column: 1/4;
+    }
+
+    </style>
+
+</head>
+<body>
+    <!-- <div class="animation"></div> -->
+   <div class="grid-container">
+       <div class="grid-item-one">1</div>
+       <div class="grid-item-two">1</div>
+       <div class="grid-item-three">1</div>
+       <div class="grid-item">
+        <div class="grid-item2"></div>
+      
+      
+
+
+    
+<div class="footer"></div>
+   </div>
+   <div class="footer"></div>
+   <div></div>
+   <div class="grid-foot">
+          <h1>footer</h1>
+   </div>
+
+</body>
+</html>

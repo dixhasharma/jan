@@ -1,0 +1,18 @@
+body {
+    
+    background: linear-gradient(to bottom, rgba(162, 193, 242, 1), rgba(162, 193, 242, 0));
+    /* background: radial-gradient(circle, red 10%, green 10%,yellow 40%); */
+    /* background: conical-gradient(to bottom,red 10%, green 10%,yellow 40% ); */
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+p{
+    background-color: blue;
+    background:rgba(162, 193, 242, 1);
+
+}
+/* .button:hover{
+         color: red;
+} */
